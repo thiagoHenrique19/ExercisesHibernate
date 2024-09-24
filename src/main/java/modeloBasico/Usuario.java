@@ -1,16 +1,18 @@
 package modeloBasico;
 
-import javax.persistence.Entity;
-import  javax.persistence.Id;
-import javax.persistence.Transient;
+import javax.persistence.*;
+
 @Entity
 public class Usuario {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
-    @Transient
     private String email;
+    public Usuario(){
+
+    }
 
     public Usuario(String nome, String email) {
         super();
