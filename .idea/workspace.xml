@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7087ccdb-eb8d-4268-b845-666bf9ef4c8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/AlterarUsuario1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/AlterarUsuario2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/ObterUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/ObterUsuarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/infra/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/infra/ProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modeloBasico/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modeloUmPraMuitos/ItemPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modeloUmPraMuitos/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modeloUmPraUm/Assento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modeloUmPraUm/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/AlterarUsuario3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/NovoProduto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/ObterProdutos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/RemoverUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/UmPraMuitos/NovoPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/UmPraUm/NovoClienteAssento1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/UmPraUm/NovoClienteAssento2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/UmPraUm/ObterClienteAssento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modeloBasico/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modeloBasico/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testeBasico/NovoUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testeBasico/NovoUsuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -43,9 +54,15 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AlterarUsuario1.executor": "Run",
     "Application.AlterarUsuario2.executor": "Run",
+    "Application.AlterarUsuario3.executor": "Run",
+    "Application.NovoClienteAssento1.executor": "Run",
+    "Application.NovoProduto.executor": "Run",
     "Application.NovoUsuario.executor": "Run",
+    "Application.ObterClienteAssento.executor": "Run",
+    "Application.ObterProdutos.executor": "Run",
     "Application.ObterUsuario.executor": "Run",
     "Application.ObterUsuarios.executor": "Run",
+    "Application.RemoverUsuario.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -69,9 +86,35 @@
       <recent name="C:\Users\thiago.henrique\Documents\workspace\Hibernate\libs\exercicio-jpa" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AlterarUsuario2">
-    <configuration name="AlterarUsuario1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testeBasico.AlterarUsuario1" />
+  <component name="RunManager" selected="Application.NovoPedido">
+    <configuration name="NovoClienteAssento1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeBasico.UmPraUm.NovoClienteAssento1" />
+      <module name="Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testeBasico.UmPraUm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NovoPedido" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeBasico.UmPraMuitos.NovoPedido" />
+      <module name="Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testeBasico.UmPraMuitos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NovoProduto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeBasico.NovoProduto" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
@@ -83,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlterarUsuario2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testeBasico.AlterarUsuario2" />
+    <configuration name="ObterClienteAssento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeBasico.UmPraUm.ObterClienteAssento" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testeBasico.*" />
+          <option name="PATTERN" value="testeBasico.UmPraUm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,34 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NovoUsuario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testeBasico.NovoUsuario" />
-      <module name="Hibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testeBasico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ObterUsuario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testeBasico.ObterUsuario" />
-      <module name="Hibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testeBasico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ObterUsuarios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testeBasico.ObterUsuarios" />
+    <configuration name="ObterProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeBasico.ObterProdutos" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AlterarUsuario2" />
-        <item itemvalue="Application.AlterarUsuario1" />
-        <item itemvalue="Application.ObterUsuarios" />
-        <item itemvalue="Application.NovoUsuario" />
-        <item itemvalue="Application.ObterUsuario" />
+        <item itemvalue="Application.NovoPedido" />
+        <item itemvalue="Application.ObterClienteAssento" />
+        <item itemvalue="Application.NovoClienteAssento1" />
+        <item itemvalue="Application.ObterProdutos" />
+        <item itemvalue="Application.NovoProduto" />
       </list>
     </recent_temporary>
   </component>
