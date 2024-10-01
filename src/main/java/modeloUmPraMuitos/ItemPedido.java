@@ -22,7 +22,7 @@ public class ItemPedido {
     private Long id;
     @ManyToOne
     private Pedido pedido;
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY) // esse é o valor default
     private Produto produto;
     @Column(nullable = false)
     private int quantidade;

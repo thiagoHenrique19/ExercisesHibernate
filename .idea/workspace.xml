@@ -5,23 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7087ccdb-eb8d-4268-b845-666bf9ef4c8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/infra/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/infra/ProdutoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modeloBasico/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modeloUmPraMuitos/ItemPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modeloUmPraMuitos/Pedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modeloUmPraUm/Assento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modeloUmPraUm/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/AlterarUsuario3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/NovoProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/ObterProdutos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/RemoverUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/UmPraMuitos/NovoPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/UmPraUm/NovoClienteAssento1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/UmPraUm/NovoClienteAssento2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/UmPraUm/ObterClienteAssento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modeloConsulta/NotaFilme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modeloMuitosPraMuitos/Ator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modeloMuitosPraMuitos/Filme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modeloMuitosPraMuitos/Sobrinho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modeloMuitosPraMuitos/Tio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/MuitosPraMuitos/NovoFilmeAtor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/MuitosPraMuitos/NovoTioSobrinho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/UmPraMuitos/ObterPedidos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/consulta/ObterFilmes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/consulta/ObterMediaFilmes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/consultas.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/infra/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/infra/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modeloUmPraMuitos/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modeloUmPraMuitos/ItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modeloUmPraMuitos/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modeloUmPraMuitos/Pedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Dockerfile" />
         <option value="Class" />
       </list>
     </option>
@@ -56,9 +55,15 @@
     "Application.AlterarUsuario2.executor": "Run",
     "Application.AlterarUsuario3.executor": "Run",
     "Application.NovoClienteAssento1.executor": "Run",
+    "Application.NovoFilmeAtor.executor": "Run",
+    "Application.NovoPedido.executor": "Run",
     "Application.NovoProduto.executor": "Run",
+    "Application.NovoTioSobrinho.executor": "Run",
     "Application.NovoUsuario.executor": "Run",
     "Application.ObterClienteAssento.executor": "Run",
+    "Application.ObterFilmes.executor": "Run",
+    "Application.ObterMediaFilmes.executor": "Run",
+    "Application.ObterPedidos.executor": "Run",
     "Application.ObterProdutos.executor": "Run",
     "Application.ObterUsuario.executor": "Run",
     "Application.ObterUsuarios.executor": "Run",
@@ -73,6 +78,11 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.37126437",
     "settings.editor.selected.configurable": "preferences.lookFeel"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "XML"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -86,13 +96,13 @@
       <recent name="C:\Users\thiago.henrique\Documents\workspace\Hibernate\libs\exercicio-jpa" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NovoPedido">
-    <configuration name="NovoClienteAssento1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testeBasico.UmPraUm.NovoClienteAssento1" />
+  <component name="RunManager" selected="Application.ObterMediaFilmes">
+    <configuration name="NovoFilmeAtor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeBasico.MuitosPraMuitos.NovoFilmeAtor" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testeBasico.UmPraUm.*" />
+          <option name="PATTERN" value="testeBasico.MuitosPraMuitos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NovoPedido" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testeBasico.UmPraMuitos.NovoPedido" />
+    <configuration name="NovoTioSobrinho" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeBasico.MuitosPraMuitos.NovoTioSobrinho" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testeBasico.UmPraMuitos.*" />
+          <option name="PATTERN" value="testeBasico.MuitosPraMuitos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NovoProduto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testeBasico.NovoProduto" />
+    <configuration name="ObterFilmes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeBasico.consulta.ObterFilmes" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testeBasico.*" />
+          <option name="PATTERN" value="testeBasico.consulta.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObterClienteAssento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testeBasico.UmPraUm.ObterClienteAssento" />
+    <configuration name="ObterMediaFilmes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeBasico.consulta.ObterMediaFilmes" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testeBasico.UmPraUm.*" />
+          <option name="PATTERN" value="testeBasico.consulta.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,8 +149,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObterProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testeBasico.ObterProdutos" />
+    <configuration name="ObterUsuario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeBasico.ObterUsuario" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
@@ -154,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NovoPedido" />
-        <item itemvalue="Application.ObterClienteAssento" />
-        <item itemvalue="Application.NovoClienteAssento1" />
-        <item itemvalue="Application.ObterProdutos" />
-        <item itemvalue="Application.NovoProduto" />
+        <item itemvalue="Application.ObterMediaFilmes" />
+        <item itemvalue="Application.ObterFilmes" />
+        <item itemvalue="Application.NovoFilmeAtor" />
+        <item itemvalue="Application.ObterUsuario" />
+        <item itemvalue="Application.NovoTioSobrinho" />
       </list>
     </recent_temporary>
   </component>
