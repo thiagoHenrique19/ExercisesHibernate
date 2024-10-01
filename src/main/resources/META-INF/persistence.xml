@@ -10,14 +10,19 @@
 
      <class>modeloBasico.Usuario</class>
        <class>modeloBasico.Produto</class>
-       <class>modelo.UmPraUm.Cliente</class>
-       <class>modelo.UmPraUm.Assento</class>
-       <class>modelo.UmPraMuitos.Pedido</class>
-       <class>modelo.UmPraMuitos.ItemPedido</class>
-       <class>modelo.MuitosPraMuitos.Tio</class>
-       <class>modelo.MuitosPraMuitos.Sobrinho</class>
-       <class>modelo.MuitosPraMuitos.Filme</class>
-       <class>modelo.MuitosPraMuitos.Ator</class>
+       <class>modeloUmPraUm.Cliente</class>
+       <class>modeloUmPraUm.Assento</class>
+       <class>modeloUmPraMuitos.Pedido</class>
+       <class>modeloUmPraMuitos.ItemPedido</class>
+       <class>modeloMuitosPraMuitos.Tio</class>
+       <class>modeloMuitosPraMuitos.Sobrinho</class>
+       <class>modeloMuitosPraMuitos.Filme</class>
+       <class>modeloMuitosPraMuitos.Ator</class>
+       <class>modeloComposicao.Endereco</class>
+       <class>modeloComposicao.Fornecedor</class>
+       <class>modeloComposicao.Funcionario</class>
+       <class>modeloHeranca.Aluno</class>
+       <class>modeloHeranca.AlunoBolsista</class>
 
        <properties>
            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>

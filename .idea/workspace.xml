@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7087ccdb-eb8d-4268-b845-666bf9ef4c8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/modeloConsulta/NotaFilme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modeloMuitosPraMuitos/Ator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modeloMuitosPraMuitos/Filme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modeloMuitosPraMuitos/Sobrinho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modeloMuitosPraMuitos/Tio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/MuitosPraMuitos/NovoFilmeAtor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/MuitosPraMuitos/NovoTioSobrinho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/UmPraMuitos/ObterPedidos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/consulta/ObterFilmes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/consulta/ObterMediaFilmes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/consultas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modeloComposicao/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modeloComposicao/Fornecedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modeloComposicao/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modeloHeranca/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modeloHeranca/AlunoBolsista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testeBasico/heranca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/infra/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/infra/DAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modeloUmPraMuitos/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modeloUmPraMuitos/ItemPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modeloUmPraMuitos/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modeloUmPraMuitos/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testeBasico/consulta/ObterFilmes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testeBasico/consulta/ObterFilmes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testeBasico/consulta/ObterMediaFilmes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testeBasico/consulta/ObterMediaFilmes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +62,7 @@
     "Application.ObterUsuario.executor": "Run",
     "Application.ObterUsuarios.executor": "Run",
     "Application.RemoverUsuario.executor": "Run",
+    "Application.heranca.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -96,7 +91,7 @@
       <recent name="C:\Users\thiago.henrique\Documents\workspace\Hibernate\libs\exercicio-jpa" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ObterMediaFilmes">
+  <component name="RunManager" selected="Application.heranca">
     <configuration name="NovoFilmeAtor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testeBasico.MuitosPraMuitos.NovoFilmeAtor" />
       <module name="Hibernate" />
@@ -149,8 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObterUsuario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testeBasico.ObterUsuario" />
+    <configuration name="heranca" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeBasico.heranca" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
@@ -164,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ObterMediaFilmes" />
-        <item itemvalue="Application.ObterFilmes" />
-        <item itemvalue="Application.NovoFilmeAtor" />
-        <item itemvalue="Application.ObterUsuario" />
+        <item itemvalue="Application.heranca" />
         <item itemvalue="Application.NovoTioSobrinho" />
+        <item itemvalue="Application.NovoFilmeAtor" />
+        <item itemvalue="Application.ObterFilmes" />
+        <item itemvalue="Application.ObterMediaFilmes" />
       </list>
     </recent_temporary>
   </component>
